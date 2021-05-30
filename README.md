@@ -1,5 +1,6 @@
 # try-awesome-scala
-A collection of scripts showing how to use the best of Scala
+
+A collection of scripts showing how to use the best of Scala. These scripts are *not* intended to be practical but *are* intended to show how to use the library/component in question. Our primary focus is on programming libraries. However, libraries with GUI or visual outputs may be included, provided a minimal script can be written to show their usage.
 
 # Rationale
 
@@ -20,6 +21,7 @@ A critical aspect of being "awesome" is to make it easy for people to do the fol
 - Create a script named try-*whatever*.amm that uses `#!/usr/bin/env amm` as the shell and make it *executable*.
 - Use Ammonite's `Ivy` import syntax. You can see examples of this in any of the existing scripts.
 - Your *try* script may have any number of entry points but must be able to run as an executable with proper *parameterization*. This means there will be command-line arguments. Again, see other scripts for how to annotate your various entry points to include command-line arguments.
+- We strongly encourage contributions that respond to an *issue* where we are seeking first-time contributors. 
 
 # Some thoughts on Scala style
 
